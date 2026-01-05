@@ -6,7 +6,7 @@ This project demonstrates a backend-driven workflow using **FastAPI**, with imag
 
 ---
 
-## 🏃 How to Run the Service
+## How to Run the Service
 
 ### 1. Clone the repository
 
@@ -34,7 +34,7 @@ Server will run on http://127.0.0.1:8000
 Swagger docs: http://127.0.0.1:8000/docs
 ```
 
-## 🔑 Authentication
+## Authentication
 
 * API requests require an **API key**
 * Example key used in this project:
@@ -50,7 +50,7 @@ X-API-KEY: veefyed-secret-key
 ```
 
 
-## 🛠 Available Endpoints
+## Available Endpoints
 
 ### 1. Upload Image
 
@@ -126,7 +126,7 @@ POST /analyze
 
 ---
 
-## 💡 Assumptions Made
+## Assumptions Made
 
 * Images are stored **locally** in `/app/uploads/`. No cloud storage is used.
 * “Analysis” is **mocked/randomized**; no real AI model is implemented.
@@ -136,7 +136,7 @@ POST /analyze
 
 ---
 
-## 🚀 Improvements for Production
+## Improvements for Production
 
 * Use **cloud storage** (e.g., S3, GCP Storage) instead of local filesystem.
 * Implement **real AI/ML model** for analysis.
@@ -150,7 +150,7 @@ POST /analyze
 
 ---
 
-## ⚡ Notes
+## Notes
 
 * All responses (success or error) are JSON.
 * HTTP status codes are used appropriately (`201`, `200`, `400`, `404`, `401`, `422`, `500`).
