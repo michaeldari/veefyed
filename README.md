@@ -1,6 +1,6 @@
 # Veefyed API
 
-A small backend service that allows a mobile app to upload images and receive mock analysis results (skin type, issues, confidence).
+A backend service that allows a mobile app to upload images and receive analysis results (skin type, issues, confidence).
 
 This project demonstrates a backend-driven workflow using **FastAPI**, with image upload, validation, API key authentication, and basic logging.
 
