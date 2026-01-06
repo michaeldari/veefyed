@@ -8,6 +8,6 @@ MAX_FILE_SIZE_MB = 5
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 
 # Simple API Key (for demo purposes)
-API_KEY = os.getenv("API_KEY", "veefyed-secret-key")
+API_KEY = os.getenv("API_KEY", "")
 
 UPLOAD_DIR.mkdir(exist_ok=True)

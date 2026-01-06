@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, Depends
 from app.services.image_storage import get_image_path
 from app.services.analysis_service import analyze_image
 from app.utils.security import verify_api_key
