@@ -130,7 +130,6 @@ POST /analyze
 
 * Images are stored **locally** in `/app/uploads/`. No cloud storage is used.
 * “Analysis” is **mocked/randomized**; no real AI model is implemented.
-* API key is **hardcoded** for simplicity.
 * Only **JPEG and PNG files** are allowed.
 * Maximum upload size is **5MB**.
 
@@ -144,7 +143,7 @@ POST /analyze
 * Add **rate limiting** to prevent abuse.
 * Add **structured logging** to a file or centralized service (ELK, Datadog).
 * Add **user authentication** if multiple clients/users exist.
-* Add **unit tests and integration tests**.
+* Add more **unit tests and integration tests**.
 * Support **image deletion and cleanup**.
 * Validate uploaded files using **magic numbers**, not just extension, to prevent fake files.
 
